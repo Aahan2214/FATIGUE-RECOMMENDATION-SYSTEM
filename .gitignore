@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+# raw NASA PDF is re-downloadable with scripts/download_data.py
+data/raw/*.pdf
+# trained models are re-created by `python -m src.train`
+models/*.joblib

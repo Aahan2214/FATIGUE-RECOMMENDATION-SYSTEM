@@ -1,0 +1,88 @@
+{
+  "n_records": 50,
+  "class_counts": {
+    "High": 42,
+    "Medium": 6,
+    "Low": 2
+  },
+  "cv": {
+    "Majority baseline": {
+      "accuracy_mean": 0.8400000000000001,
+      "accuracy_std": 1.1102230246251565e-16,
+      "f1_macro_mean": 0.3043478260869565,
+      "f1_macro_std": 0.0
+    },
+    "KNN": {
+      "accuracy_mean": 0.8280000000000001,
+      "accuracy_std": 0.018330302779823324,
+      "f1_macro_mean": 0.30193236714975846,
+      "f1_macro_std": 0.0036896744725892342
+    },
+    "Random Forest": {
+      "accuracy_mean": 0.692,
+      "accuracy_std": 0.07599999999999997,
+      "f1_macro_mean": 0.2805346032090218,
+      "f1_macro_std": 0.03131987662383345
+    }
+  },
+  "confusion": {
+    "KNN": {
+      "labels": [
+        "Low",
+        "Medium",
+        "High"
+      ],
+      "matrix": [
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          42
+        ]
+      ]
+    },
+    "Random Forest": {
+      "labels": [
+        "Low",
+        "Medium",
+        "High"
+      ],
+      "matrix": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          2,
+          5,
+          35
+        ]
+      ]
+    }
+  },
+  "best_params": {
+    "KNN": {
+      "knn__metric": "euclidean",
+      "knn__n_neighbors": 3
+    },
+    "Random Forest": {
+      "rf__max_depth": null,
+      "rf__min_samples_leaf": 1
+    }
+  }
+}

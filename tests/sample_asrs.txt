@@ -1,0 +1,82 @@
+ASRS Database Report Set
+Air Carrier (FAR 121) Flight Crew Fatigue Reports
+Report Synopses
+ACN: 1000001 (1 of 3)
+Synopsis
+Crew reported a terrain alert on approach.
+ACN: 1000002 (2 of 3)
+Synopsis
+Crew diverted after oil loss.
+Report Narratives
+ACN: 1000001 (1 of 3)
+Time / Day
+Date : 202403
+Local Time Of Day : 0601-1200
+Place
+Locale Reference.Airport : ROA.Airport
+Environment
+Light : Daylight
+Aircraft
+Make Model Name : Commercial Fixed Wing
+Crew Size.Number Of Crew : 2
+Flight Phase : Initial Approach
+Person
+Function.Flight Crew : Captain
+Function.Flight Crew : Pilot Flying
+Human Factors : Fatigue
+Human Factors : Workload
+Events
+Anomaly.Inflight Event / Encounter : CFTT / CFIT
+Result.Flight Crew : Took Evasive Action
+Assessments
+Primary Problem : Human Factors
+Narrative: 1
+We got a terrain alert. It was a tiring reserve schedule on my 12th revision
+to my trip and a long day four of four, plus a delay.
+Synopsis
+Crew reported a terrain alert on approach.
+ACN: 1000002 (2 of 3)
+Time / Day
+Date : 202402
+Local Time Of Day : 1801-2400
+Environment
+Light : Night
+Aircraft
+Make Model Name : EMB ERJ 170/175 ER/LR
+Crew Size.Number Of Crew : 2
+Flight Phase : Cruise
+Person : 1
+Function.Flight Crew : First Officer
+Human Factors : Fatigue
+Events
+Anomaly.Deviation - Altitude : Overshoot
+Anomaly.Deviation / Discrepancy - Procedural : Clearance
+Assessments
+Primary Problem : Human Factors
+Narrative: 1
+I did not sleep well at the hotel and was tired. We descended below the altitude.
+Narrative: 2
+Second crew member agrees about the poor sleep.
+Synopsis
+Crew descended below assigned altitude.
+ACN: 1000003 (3 of 3)
+Time / Day
+Date : 202401
+Local Time Of Day : 0001-0600
+Environment
+Light : Night
+Aircraft
+Make Model Name : B737-800
+Crew Size.Number Of Crew : 2
+Flight Phase : Parked
+Person
+Function.Flight Crew : Captain
+Human Factors : Fatigue
+Events
+Anomaly.Ground Event / Encounter : Vehicle
+Assessments
+Primary Problem : Procedure
+Narrative: 1
+Fatigued after a night schedule swap. Deicing and snow caused a ground event.
+Synopsis
+Minor ground event.
