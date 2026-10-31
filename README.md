@@ -15,3 +15,14 @@ NASA ASRS *Air Carrier (FAR 121) Flight Crew Fatigue Reports* set
 5. **Recommender** (`src/recommend.py`): RF gives risk + probabilities; KNN retrieves the most similar
    past reports; countermeasures are ranked from the user's own routine plus factors common in the neighbours.
 6. **Web app** (Streamlit) to enter a routine and get recommendations.
+
+## Limitations
+ 
+- Fifty reports is a very small dataset, and every one of them is already about fatigue. The accuracy numbers should be read as rough indications, not firm results. Always look at them next to the baseline.
+- ASRS reports are voluntary, so the data says nothing about how common any problem really is. NASA says this in the PDF itself.
+- The risk label is a rule I wrote, not an expert's judgement. A better version would have aviation safety people label the reports.
+- The narrative flags are found with keyword matching, so some will be wrong or missed.
+- The advice is general fatigue guidance. It is not medical advice and it does not replace 14 CFR Part 117 or an airline's own fatigue risk management rules.
+## Possible next steps
+ 
+Pull a larger set of fatigue reports from the full ASRS database and adapt the parser to its columns, add expert labels, and try text features on the narratives.
